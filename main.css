@@ -1,3 +1,32 @@
 body {
     background-color: #504a4a;
 }
+
+
+.panel > .panel-heading {
+    background-color: #f78f3f;
+}
+
+.panel {
+    background-color: #504a4a;
+    border: solid 1px white;
+    text-align: center;
+    height: 450px;
+}
+.charDescription {
+    color: #e23636;
+}
+
+.charImage {
+    border-radius: 100%;
+}
+
+.maleImage {
+    border: 5px solid #518cca
+
+}
+
+.femaleImage {
+        border: 5px solid pink;
+
+}
