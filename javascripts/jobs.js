@@ -24,7 +24,7 @@ function buildDomDtring(superheroes)
     let domString = "";
     superheroes.forEach(superhero => {
         domString += `<li>`;
-        domString +=    `<a href="#">${superhero.name}</a>`;
+        domString +=    `<a href="#" data-hero-id="${superhero.id}">${superhero.name}</a>`;
         domString += `<li>`;
 
         
