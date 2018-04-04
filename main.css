@@ -22,11 +22,11 @@ body {
 }
 
 .maleImage {
-    border: 5px solid #518cca
+    border: solid 5px #518cca;
 
 }
 
 .femaleImage {
-        border: 5px solid pink;
+    border: solid 5px pink;
 
 }

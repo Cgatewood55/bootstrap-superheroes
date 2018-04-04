@@ -30,13 +30,12 @@ function buildDomDtring(superheroes)
         domString += `</div>`;
         domString += `<div class = "panel-body">`;
         if(superhero.gender==='Male'){
-            domString += `<img class="charImage"  "maleImage" src="${superhero.image}">`;
+            domString += `<img class="charImage maleImage" src="${superhero.image}">`;
         } else {
-            domString += `<img class="charImage"  "femaleImage" src="${superhero.image}">`;
+            domString += `<img class="charImage femaleImage" src="${superhero.image}">`;
 
         }
         domString += `<p class="charDescription">${superhero.description}</p>`;
-        domString += `Panel content`;
         domString += `</div>`;
         domString += `</div>`;
         domString += `</div>`;
